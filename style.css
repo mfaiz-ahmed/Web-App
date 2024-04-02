@@ -4,10 +4,11 @@ box-sizing: border-box;}
 
 html{font-size: 62.5%;}
 
-body{max-width: 1500px;}
 
 .margin{margin: 0 auto;}
 
+
+nav{position: sticky;   }
 
 .logo{width: 175px;
 margin-top: -30px;}
@@ -24,4 +25,35 @@ font-family: sans-serif;}
 .link-1:hover{color: #e46831;}
 
 .heading{font-size: 4rem;
-font-weight: 700;}
+font-weight: 700;
+color: #e46831;}
+
+.pointer{cursor: pointer;}
+
+.button{padding: 10px 15px;
+border: 0;
+border-radius:15px;
+background-color: #e46831;
+color: white;
+font-size: 1.4rem;
+transition: ease-out 0.3s;
+width: 100%;
+position: relative;
+z-index: 1;}
+
+.button:hover{background-color: #d3490e;}
+
+
+
+.content{font-family: PT Sans;
+font-size: 2rem;}
+
+
+.about{font-size: 2.2rem;
+font-weight: 900;}
+
+
+.font{font-family: PT Sans;}
+
+
+.basis{flex-basis: 25%;}
