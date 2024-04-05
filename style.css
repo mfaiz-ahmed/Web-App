@@ -99,3 +99,11 @@ transition: all 0.5s;
 color: gray;}
 
 .contact:hover{color: black;}
+
+
+
+.delivery-icons{font-size: 12rem;
+color: #d3490e;}
+
+
+.basis-2{flex-basis: 50%;}
