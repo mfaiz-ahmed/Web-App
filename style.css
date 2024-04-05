@@ -5,13 +5,17 @@ box-sizing: border-box;}
 html{font-size: 62.5%;}
 
 
+nav{max-width: 1500px;
+margin: 0 auto;
+background-color: white;
+margin-bottom: 50px;
+border-bottom: 2px solid #ccc;}
+
 .margin{margin: 0 auto;}
 
-
-nav{position: sticky;   }
-
-.logo{width: 175px;
-margin-top: -30px;}
+.logo{width: 150px;
+margin-top: -30px;
+mix-blend-mode: multiply;}
 
 ul{list-style: none;}
 
@@ -21,6 +25,8 @@ ul{list-style: none;}
 
 .link-1{color: black;
 font-family: sans-serif;}
+
+.box{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
 
 .link-1:hover{color: #e46831;}
 
@@ -49,11 +55,47 @@ z-index: 1;}
 font-size: 2rem;}
 
 
-.about{font-size: 2.2rem;
-font-weight: 900;}
+footer{max-width: 1500px;
+margin: 0 auto;
+border-top: 2px solid #ccc;}
 
 
-.font{font-family: PT Sans;}
+.icons{padding: 15px;
+background-color: black;
+color: white;
+font-size: 2rem;
+border: 0;
+border-radius: 50%;
+transition: all 0.3s;}
+
+.icons:hover{color: #d3490e;}
 
 
 .basis{flex-basis: 25%;}
+
+.footer-heading{font-family: PT Sans;
+font-size: 2.3rem;
+}
+
+
+
+.link-2{font-family: PT Sans;
+font-size: 1.6rem;
+list-style-type: disc;
+transition: all 0.5s;
+color: gray;
+font-weight: 700;
+}
+
+.link-2::marker{color: #d3490e;}
+
+
+.link-2:hover{color:black;}
+
+.contact{font-family: PT Sans;
+font-size: 1.8rem;
+font-weight: 700;
+transition: all 0.5s;
+color: gray;}
+
+.contact:hover{color: black;}
