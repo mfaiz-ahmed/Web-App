@@ -107,3 +107,39 @@ color: #d3490e;}
 
 
 .basis-2{flex-basis: 50%;}
+
+
+label{font-family: PT Sans;
+font-size: 2.4rem;}
+
+input{padding: 15px 20px;
+width: 700px;
+border-radius: 25px;
+font-size: 1.6rem;}
+
+
+input:focus{border: 2px solid #d3490e;
+outline: none;
+font-size: 1.6rem;}
+
+input::placeholder{font-size: 1.6rem;}
+
+
+textarea{padding: 10px 10px;
+font-size:3rem;
+border-radius: 25px;}
+
+
+textarea:focus{border: 2px solid #d3490e;
+outline: none;}
+
+
+.submit{background-color: #e46831;
+color: white;
+padding: 10px 15px;
+border: 0;
+border-radius: 25px;
+font-family: PT Sans;
+font-size: 1.6rem;}
+
+.submit:hover{background-color: #d3490e;}

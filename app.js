@@ -66,8 +66,3 @@ const phones = [
 
 ]
 
-const cardText = document.querySelector('.card-text')
-
-function render(){
-    
-}    
