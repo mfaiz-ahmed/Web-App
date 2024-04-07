@@ -144,11 +144,14 @@ font-size: 1.6rem;}
 .submit:hover{background-color: #d3490e;}
 
 
-.box{font-family: sans-serif;
+.box{font-family: PT Sans;
 width: 250px;
-font-size: 1.6rem;
 height: 100%;
+font-size: 1.6rem;
+line-height: 15px;
 padding: 20px;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+
 
 
