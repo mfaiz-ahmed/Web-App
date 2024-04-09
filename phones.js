@@ -1,3 +1,5 @@
+// Phones started 
+
 const phones = [
     {
         image: "./Assets/Mobile-1.webp",
@@ -30,14 +32,14 @@ const phones = [
         price: "12,499" 
     },
     {
-        image: "./Assets/Mobile-4.webp",
-        brand: 'Oppo',
-        model: 'A18',
-        ram: "4 GB",
-        rom: "128 GB",
-        maincamera: "8 MP + 2 MP",
-        frontCamera: '5 MP',
-        price: "474,999" 
+        image: "./Assets/Mobile-4.jpg",
+        brand: 'Oneplus',
+        model: 'Oneplus 10 Pro',
+        ram: "12 GB",
+        rom: "256 GB",
+        maincamera: '48 MP + 50 MP + 8 MP',
+        frontCamera: '32 MP',
+        price: "160,000" 
     },
     {
         image: "./Assets/Mobile-5.png",
@@ -100,14 +102,14 @@ const phones = [
         price: "249,999" 
     },
     {
-        image: "./Assets/Mobile-11.jpg",
-        brand: 'Oneplus',
-        model: 'Oneplus 10 Pro',
-        ram: "12 GB",
-        rom: "256 GB",
-        maincamera: '48 MP + 50 MP + 8 MP',
-        frontCamera: '32 MP',
-        price: "160,000" 
+        image: "./Assets/Mobile-11.webp",
+        brand: 'Oppo',
+        model: 'A18',
+        ram: "4 GB",
+        rom: "128 GB",
+        maincamera: "8 MP + 2 MP",
+        frontCamera: '5 MP',
+        price: "474,999" 
     },
     {
         image: "./Assets/Mobile-12.webp",
@@ -123,17 +125,12 @@ const phones = [
 
 ]
 
-for (let index = 0; index < phones.length; index++) {
-    
-}
 
+const showPhones = document.querySelector('.showPhones')
 
-const showDetails = document.querySelector('.showDetails')
-
-function render(){
-    showDetails.innerHTML = '';
+function renderPhones(){
     phones.forEach((phones , index)=>{
-        showDetails.innerHTML +=`
+        showPhones.innerHTML +=`
         <div class="box">
                     <div class="box-content">
                       <img class="card-img-top" src="${phones.image}" alt="">
@@ -144,11 +141,78 @@ function render(){
                       <p><span class="fw-bold">Rear Camera:</span> ${phones.maincamera}</p>
                       <p><span class="fw-bold">Front Camera:</span> ${phones.frontCamera}</p>
                       <p><span class="fw-bold">Price:</span> Rs. ${phones.price} </p>
-                      
-                      <button class="button mt-3">Add To Cart</button>
+                      <button class="button mt-3" onclick="addToCart() ">Add To Cart</button>
                     </div>
                   </div>` 
     })
 }
+renderPhones()
 
-render()
+// Phones ended
+
+
+// let cart =  localStorage.getItem('cartItems') || [];
+
+
+// function addToCart(image , brand , model ,  ram , rom , maincamera , frontCamera , price){
+//     const phones = {
+//         image:image,
+//         brand:brand,
+//         model:model,
+//         ram:ram,
+//         rom:rom,
+//         maincamera:maincamera,
+//         frontCamera:frontCamera,
+//         price:price,
+//         quantity:1
+//     }
+//     cart.push(phones)
+//     Swal.fire({
+//         title: "Success!",
+//         text: "Item added to cart successfully",
+//         imageUrl: "./Assets/Tick.png",
+//         imageWidth: 200,
+//         imageHeight: 200,
+//         imageAlt: "Custom image"
+//       });
+// }
+
+
+// Tablets started 
+
+
+const  tablets = [
+    {
+        image: "./Assets/Mobile-1.webp",
+        brand: 'Apple',
+        model: 'Iphone 15 Pro Max',
+        ram: "8 GB",
+        rom: "256 GB",
+        maincamera: '48 MP + 12 MP + 12 MP',
+        frontCamera: '12 MP',
+        price: "524,999" 
+    },
+]
+
+const showTablets = document.querySelector('.showTablets');
+
+function renderTablets(){   
+    tablets.forEach((tablets , index)=>{
+        showTablets.innerHTML +=`
+        <div class="box">
+                    <div class="box-content">
+                      <img class="card-img-top" src="${tablets.image}" alt="">
+                      <p><span class="fw-bold">Brand:</span> ${tablets.brand}</p>
+                      <p><span class="fw-bold">Model:</span> ${tablets.model}</p>
+                      <p><span class="fw-bold">Ram:</span> ${tablets.ram}</p>
+                      <p><span class="fw-bold">Rom:</span> ${tablets.rom}</p>
+                      <p><span class="fw-bold">Rear Camera:</span> ${tablets.maincamera}</p>
+                      <p><span class="fw-bold">Front Camera:</span> ${tablets.frontCamera}</p>
+                      <p><span class="fw-bold">Price:</span> Rs. ${tablets.price} </p>
+                      <button class="button mt-3" onclick="addToCart() ">Add To Cart</button>
+                    </div>
+                  </div>` 
+    })
+}   
+renderTablets()
+// Tablets ended 
