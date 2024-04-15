@@ -141,78 +141,45 @@ function renderPhones(){
                       <p><span class="fw-bold">Rear Camera:</span> ${phones.maincamera}</p>
                       <p><span class="fw-bold">Front Camera:</span> ${phones.frontCamera}</p>
                       <p><span class="fw-bold">Price:</span> Rs. ${phones.price} </p>
-                      <button class="button mt-3" onclick="addToCart() ">Add To Cart</button>
+                      <button class="button mt-3" onclick="addToCart(${phones.brand}, ${phones.model} , ${phones.ram}, ${phones.rom} , ${phones.maincamera}, ${phones.frontCamera} , ${phones.price} ) ">Add To Cart</button>
                     </div>
                   </div>` 
     })
 }
 renderPhones()
 
-// Phones ended
 
 
-// let cart =  localStorage.getItem('cartItems') || [];
+let cart = [];
 
 
-// function addToCart(image , brand , model ,  ram , rom , maincamera , frontCamera , price){
-//     const phones = {
-//         image:image,
-//         brand:brand,
-//         model:model,
-//         ram:ram,
-//         rom:rom,
-//         maincamera:maincamera,
-//         frontCamera:frontCamera,
-//         price:price,
-//         quantity:1
-//     }
-//     cart.push(phones)
-//     Swal.fire({
-//         title: "Success!",
-//         text: "Item added to cart successfully",
-//         imageUrl: "./Assets/Tick.png",
-//         imageWidth: 200,
-//         imageHeight: 200,
-//         imageAlt: "Custom image"
-//       });
-// }
+function addToCart(image , brand , model ,  ram , rom , maincamera , frontCamera , price){
+    const phones = {
+        image:image,
+        brand:brand,
+        model:model,
+        ram:ram,
+        rom:rom,
+        maincamera:maincamera,
+        frontCamera:frontCamera,
+        price:price,
+        quantity:1
+    }
+    cart.push(phones)
+    Swal.fire({
+        title: "Success!",
+        text: "Item added to cart successfully",
+        imageUrl: "./Assets/Tick.png",
+        imageWidth: 200,
+        imageHeight: 200,
+        imageAlt: "Custom image"
+    });
+
+}
 
 
-// Tablets started 
 
-
-const  tablets = [
-    {
-        image: "./Assets/Mobile-1.webp",
-        brand: 'Apple',
-        model: 'Iphone 15 Pro Max',
-        ram: "8 GB",
-        rom: "256 GB",
-        maincamera: '48 MP + 12 MP + 12 MP',
-        frontCamera: '12 MP',
-        price: "524,999" 
-    },
-]
-
-const showTablets = document.querySelector('.showTablets');
-
-function renderTablets(){   
-    tablets.forEach((tablets , index)=>{
-        showTablets.innerHTML +=`
-        <div class="box">
-                    <div class="box-content">
-                      <img class="card-img-top" src="${tablets.image}" alt="">
-                      <p><span class="fw-bold">Brand:</span> ${tablets.brand}</p>
-                      <p><span class="fw-bold">Model:</span> ${tablets.model}</p>
-                      <p><span class="fw-bold">Ram:</span> ${tablets.ram}</p>
-                      <p><span class="fw-bold">Rom:</span> ${tablets.rom}</p>
-                      <p><span class="fw-bold">Rear Camera:</span> ${tablets.maincamera}</p>
-                      <p><span class="fw-bold">Front Camera:</span> ${tablets.frontCamera}</p>
-                      <p><span class="fw-bold">Price:</span> Rs. ${tablets.price} </p>
-                      <button class="button mt-3" onclick="addToCart() ">Add To Cart</button>
-                    </div>
-                  </div>` 
-    })
-}   
-renderTablets()
-// Tablets ended 
+function checkout(){
+    localStorage.setItem('CartItems' , JSON.stringify(cart))
+    window.location = "cart.html"
+}
