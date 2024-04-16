@@ -19,6 +19,9 @@ mix-blend-mode: multiply;}
 
 ul{list-style: none;}
 
+
+li{font-family: PT Sans;}
+
 .logos{filter: grayscale(100%);}
 
 .logos:hover{filter: grayscale(0);}
@@ -40,6 +43,9 @@ border: 0;
 border-radius:15px;
 background-color: #0791d7;
 color: white;
+letter-spacing: 1px;
+font-family: PT Sans;
+font-weight: 700;
 font-size: 1.4rem;
 transition: ease-out 0.3s;
 width: 100%;
@@ -141,7 +147,7 @@ border-radius: 25px;
 font-family: PT Sans;
 font-size: 1.6rem;}
 
-.submit:hover{background-color: #0791d7;}
+.submit:hover{background-color: #04557e;}
 
 
 .box{font-family: PT Sans;
@@ -156,3 +162,43 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
 
 .main{max-width: 1500px;
 margin: 0 auto;}
+
+
+.bg-img{background-image: url(./Assets/background-image.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+min-height: 100%;
+text-align: center;
+padding: 300px;
+}
+
+
+
+.text{font-size: 8rem;
+    font-weight: 800;
+    font-family: PT Sans;
+    color: black;}
+
+
+.button-2{padding: 10px 15px;
+    border: 0;
+    border-radius:10px;
+    background-color: #0791d7;
+    color: white;
+    letter-spacing: 1px;
+    font-family: PT Sans;
+    font-weight: 800;
+    width: 125px;
+    font-size: 1.4rem;
+    transition: all 0.3s;}
+
+.button-2:hover{background-color: transparent;
+color: black;
+border: 2px solid white;}    
+
+
+
+.icons-2{font-size: 3rem;
+color: #0791d7;}

@@ -164,18 +164,16 @@ function renderItems(){
         <div class="box">
                     <div class="box-content">
                       <img class="card-img-top" src="${phones.image}" alt="">
-                      <p><span class="fw-bold">Brand:</span> ${phones.brand}</p>
-                      <p><span class="fw-bold">Model:</span> ${phones.model}</p>
-                      <p><span class="fw-bold">Ram:</span> ${phones.ram}</p>
-                      <p><span class="fw-bold">Rom:</span> ${phones.rom}</p>
-                      <p><span class="fw-bold">Rear Camera:</span> ${phones.maincamera}</p>
-                      <p><span class="fw-bold">Front Camera:</span> ${phones.frontCamera}</p>
-                      <p><span class="fw-bold">Price:</span> Rs. ${phones.price} </p>
-                      <button class="button mt-3" onclick="addToCart(${phones.brand}, ${phones.model} , ${phones.ram}, ${phones.rom} , ${phones.maincamera}, ${phones.frontCamera} , ${phones.price} ) ">Add To Cart</button>
+                      <p><span class="fw-bolder">Brand:</span> ${phones.brand}</p>
+                      <p><span class="fw-bolder">Model:</span> ${phones.model}</p>
+                      <p><span class="fw-bolder">Ram:</span> ${phones.ram}</p>
+                      <p><span class="fw-bolder">Rom:</span> ${phones.rom}</p>
+                      <p><span class="fw-bolder">Rear Camera:</span> ${phones.maincamera}</p>
+                      <p><span class="fw-bolder">Front Camera:</span> ${phones.frontCamera}</p>
+                      <p><span class="fw-bolder">Price:</span> Rs. ${phones.price} </p>
+                      <button class="button mt-3" onclick="addToCart(${phones.image},${phones.brand},${phones.model},${phones.ram},${phones.rom},${phones.maincamera},${phones.frontCamera},${phones.price})">Add To Cart</button>
                     </div>
                   </div>` 
     })
 }
 renderItems()
-
-
