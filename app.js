@@ -126,11 +126,11 @@ const phones = [
 ]
 
 
-const showPhones = document.querySelector('.showPhones')
+const showItems = document.querySelector('.showItems')
 
-function renderPhones(){
+function renderItems(){
     phones.forEach((phones , index)=>{
-        showPhones.innerHTML +=`
+        showItems.innerHTML +=`
         <div class="box">
                     <div class="box-content">
                       <img class="card-img-top" src="${phones.image}" alt="">
@@ -146,7 +146,7 @@ function renderPhones(){
                   </div>` 
     })
 }
-renderPhones()
+renderItems()
 
 
 
