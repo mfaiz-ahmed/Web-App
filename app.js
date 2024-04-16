@@ -42,14 +42,14 @@ const phones = [
         price: "160,000" 
     },
     {
-        image: "./Assets/Mobile-5.png",
-        brand: 'Oppo',
-        model: 'F1s',
-        ram: "4 GB",
-        rom: "64 GB",
-        maincamera: '13 MP',
-        frontCamera: '16 MP',
-        price: "17,999" 
+        image: "./Assets/Mobile-5.jpg",
+        brand: 'Vivo',
+        model: 'S1',
+        ram: "8 GB",
+        rom: "256 GB",
+        maincamera: '16 MP + 8 MP + 5 MP',
+        frontCamera: '32 MP',
+        price: "32,500" 
     },
     {
         image: "./Assets/Mobile-6.png",
@@ -117,9 +117,39 @@ const phones = [
         model: 'Spark 20 Pro Plus',
         ram: "8 GB",
         rom: "256 GB",
-        maincamera: "108 MP",
+        maincamera: "108 MP + 2 MP",
         frontCamera: '32 MP',
+        price: "49,999" 
+    },
+    {
+        image: "./Assets/Mobile-13.png",
+        brand: 'Oppo',
+        model: 'F1S',
+        ram: "4 GB",
+        rom: "64 GB",
+        maincamera: "13 MP",
+        frontCamera: '16 MP',
+        price: "17,999" 
+    },
+    {
+        image: "./Assets/Mobile-14.webp",
+        brand: 'Xiaomi',
+        model: 'Redmi 13 C',
+        ram: "6 GB",
+        rom: "128 GB",
+        maincamera: "8 MP",
+        frontCamera: '8 MP',
         price: "474,999" 
+    },
+    {
+        image: "./Assets/Mobile-15.webp",
+        brand: 'Nokia',
+        model: 'C22',
+        ram: "4 GB",
+        rom: "128 GB",
+        maincamera: "13 MP",
+        frontCamera: '8 MP',
+        price: "24,499" 
     },
     
 
