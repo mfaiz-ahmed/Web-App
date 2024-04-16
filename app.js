@@ -149,37 +149,3 @@ function renderItems(){
 renderItems()
 
 
-
-let cart = [];
-
-
-function addToCart(image , brand , model ,  ram , rom , maincamera , frontCamera , price){
-    const phones = {
-        image:image,
-        brand:brand,
-        model:model,
-        ram:ram,
-        rom:rom,
-        maincamera:maincamera,
-        frontCamera:frontCamera,
-        price:price,
-        quantity:1
-    }
-    cart.push(phones)
-    Swal.fire({
-        title: "Success!",
-        text: "Item added to cart successfully",
-        imageUrl: "./Assets/Tick.png",
-        imageWidth: 200,
-        imageHeight: 200,
-        imageAlt: "Custom image"
-    });
-
-}
-
-
-
-function checkout(){
-    localStorage.setItem('CartItems' , JSON.stringify(cart))
-    window.location = "cart.html"
-}

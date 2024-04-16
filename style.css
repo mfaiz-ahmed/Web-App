@@ -27,18 +27,18 @@ ul{list-style: none;}
 font-family: sans-serif;}
 
 
-.link-1:hover{color: #e46831;}
+.link-1:hover{color: #0791d7;}
 
 .heading{font-size: 4rem;
 font-weight: 700;
-color: #e46831;}
+color: #0791d7;}
 
 .pointer{cursor: pointer;}
 
 .button{padding: 10px 15px;
 border: 0;
 border-radius:15px;
-background-color: #e46831;
+background-color: #0791d7;
 color: white;
 font-size: 1.4rem;
 transition: ease-out 0.3s;
@@ -46,7 +46,7 @@ width: 100%;
 position: relative;
 z-index: 1;}
 
-.button:hover{background-color: #d3490e;}
+.button:hover{background-color: #04557e;}
 
 
 
@@ -67,7 +67,7 @@ border: 0;
 border-radius: 50%;
 transition: all 0.3s;}
 
-.icons:hover{color: #d3490e;}
+.icons:hover{color: #0791d7;}
 
 
 .basis{flex-basis: 33.3333%;}
@@ -86,7 +86,7 @@ color: gray;
 font-weight: 700;
 }
 
-.link-2::marker{color: #d3490e;}
+.link-2::marker{color: #0791d7;}
 
 
 .link-2:hover{color:black;}
@@ -102,7 +102,7 @@ color: gray;}
 
 
 .delivery-icons{font-size: 12rem;
-color: #d3490e;}
+color: #0791d7;}
 
 
 .basis-2{flex-basis: 50%;}
@@ -117,7 +117,7 @@ border-radius: 25px;
 font-size: 1.6rem;}
 
 
-input:focus{border: 2px solid #d3490e;
+input:focus{border: 2px solid #0791d7;
 outline: none;
 font-size: 1.6rem;}
 
@@ -129,11 +129,11 @@ font-size:3rem;
 border-radius: 25px;}
 
 
-textarea:focus{border: 2px solid #d3490e;
+textarea:focus{border: 2px solid #0791d7;
 outline: none;}
 
 
-.submit{background-color: #e46831;
+.submit{background-color: #0791d7;
 color: white;
 padding: 10px 15px;
 border: 0;
@@ -141,7 +141,7 @@ border-radius: 25px;
 font-family: PT Sans;
 font-size: 1.6rem;}
 
-.submit:hover{background-color: #d3490e;}
+.submit:hover{background-color: #0791d7;}
 
 
 .box{font-family: PT Sans;
