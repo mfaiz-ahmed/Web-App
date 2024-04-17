@@ -171,9 +171,29 @@ function renderItems(){
                       <p><span class="fw-bolder">Rear Camera:</span> ${phones.maincamera}</p>
                       <p><span class="fw-bolder">Front Camera:</span> ${phones.frontCamera}</p>
                       <p><span class="fw-bolder">Price:</span> Rs. ${phones.price} </p>
-                      <button class="button mt-3" onclick="addToCart(${phones.image},${phones.brand},${phones.model},${phones.ram},${phones.rom},${phones.maincamera},${phones.frontCamera},${phones.price})">Add To Cart</button>
+                      <button class="button mt-3" onclick="addToCart(${phones.image},${phones.brand},${phones.model},${phones.ram},${phones.rom},${phones.maincamera},${phones.frontCamera},${phones.price})"><i class="fa-solid fa-cart-shopping"></i> Add To Cart</button>
                     </div>
                   </div>` 
     })
 }
 renderItems()
+
+
+let cart = []
+
+
+
+function addToCart(image , brand , model , ram , rom , maincamera , frontCamera , price ){
+    const phone = {
+        image: phones.image,
+        brand: phones.brand,
+        model: phones.model,
+        ram: phones.ram,
+        rom: phones.rom,
+        maincamera: phones.maincamera,
+        frontCamera: phones.frontCamera,
+        price: phones.price,
+    }
+    localStorage.setItem(JSON.stringify("Cart" , phones[i]))
+
+}
