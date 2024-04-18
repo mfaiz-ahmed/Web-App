@@ -9,7 +9,7 @@ const phones = [
         rom: "256 GB",
         maincamera: '48 MP + 12 MP + 12 MP',
         frontCamera: '12 MP',
-        price: "524,999" 
+        price: 525000
     },
     {
         image: "./Assets/Mobile-2.webp",
@@ -19,7 +19,7 @@ const phones = [
         rom: "512 GB",
         maincamera: "200 MP + 50 MP + 10 MP",
         frontCamera: '12 MP',
-        price: "474,999" 
+        price: 475000
     },
     {
         image: "./Assets/Mobile-3.webp",
@@ -29,7 +29,7 @@ const phones = [
         rom: "32 GB",
         maincamera: '50 MP + 5 MP + 2 MP',
         frontCamera: '13 MP',
-        price: "12,499" 
+        price: 12500
     },
     {
         image: "./Assets/Mobile-4.jpg",
@@ -39,7 +39,7 @@ const phones = [
         rom: "256 GB",
         maincamera: '48 MP + 50 MP + 8 MP',
         frontCamera: '32 MP',
-        price: "160,000" 
+        price: 160000 
     },
     {
         image: "./Assets/Mobile-5.jpg",
@@ -49,7 +49,7 @@ const phones = [
         rom: "256 GB",
         maincamera: '16 MP + 8 MP + 5 MP',
         frontCamera: '32 MP',
-        price: "32,500" 
+        price: 32500 
     },
     {
         image: "./Assets/Mobile-6.png",
@@ -59,7 +59,7 @@ const phones = [
         rom: "128 GB",
         maincamera: "48 MP",
         frontCamera: '12 MP',
-        price: "168,000" 
+        price: 168000 
     },
     {
         image: "./Assets/Mobile-7.png",
@@ -69,7 +69,7 @@ const phones = [
         rom: "32 GB",
         maincamera: '50 MP',
         frontCamera: '5 MP',
-        price: "18,780" 
+        price: 18800
     },
     {
         image: "./Assets/Mobile-8.webp",
@@ -79,7 +79,7 @@ const phones = [
         rom: "128 GB",
         maincamera: "108 MP + 2 MP",
         frontCamera: '8 MP',
-        price: "474,999" 
+        price: 36600 
     },
     {
         image: "./Assets/Mobile-9.webp",
@@ -89,7 +89,7 @@ const phones = [
         rom: "64 GB",
         maincamera: '50 MP',
         frontCamera: '5 MP',
-        price: "29,999" 
+        price: 30000
     },
     {
         image: "./Assets/Mobile-10.webp",
@@ -99,7 +99,7 @@ const phones = [
         rom: "512 GB",
         maincamera: "12 MP + 12 MP",
         frontCamera: '10 MP',
-        price: "249,999" 
+        price: 250000 
     },
     {
         image: "./Assets/Mobile-11.webp",
@@ -109,7 +109,7 @@ const phones = [
         rom: "128 GB",
         maincamera: "8 MP + 2 MP",
         frontCamera: '5 MP',
-        price: "474,999" 
+        price: 30500 
     },
     {
         image: "./Assets/Mobile-12.webp",
@@ -119,7 +119,7 @@ const phones = [
         rom: "256 GB",
         maincamera: "108 MP + 2 MP",
         frontCamera: '32 MP',
-        price: "49,999" 
+        price: 50000 
     },
     {
         image: "./Assets/Mobile-13.png",
@@ -129,7 +129,7 @@ const phones = [
         rom: "64 GB",
         maincamera: "13 MP",
         frontCamera: '16 MP',
-        price: "17,999" 
+        price: 18000
     },
     {
         image: "./Assets/Mobile-14.webp",
@@ -139,7 +139,7 @@ const phones = [
         rom: "128 GB",
         maincamera: "8 MP",
         frontCamera: '8 MP',
-        price: "474,999" 
+        price: 26000 
     },
     {
         image: "./Assets/Mobile-15.webp",
@@ -149,7 +149,7 @@ const phones = [
         rom: "128 GB",
         maincamera: "13 MP",
         frontCamera: '8 MP',
-        price: "24,499" 
+        price: 24500 
     },
     
 
