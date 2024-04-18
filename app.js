@@ -179,9 +179,9 @@ function renderItems(){
 renderItems()
 
 
-let cart = []
+let cart = JSON.parse(localStorage.getItem('CartItems')) || [];
 
-
+const counter = document.querySelector('.counter')
 
 function addToCart(image , brand , model , ram , rom , maincamera , frontCamera , price ){
     const phone = {
@@ -194,6 +194,15 @@ function addToCart(image , brand , model , ram , rom , maincamera , frontCamera 
         frontCamera: phones.frontCamera,
         price: phones.price,
     }
-    localStorage.setItem(JSON.stringify("Cart" , phones[i]))
+    
 
+}
+
+function totalItems(){
+    counter.innerHTML = cart.length 
+}
+
+function checkout(){
+    localStorage.setItem('CartItems' , JSON.stringify(cart))
+    window.localStorage = "cart.html"
 }

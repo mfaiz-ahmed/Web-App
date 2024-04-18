@@ -6,7 +6,7 @@ html{font-size: 62.5%;}
 
 
 nav{max-width: 1500px;
-margin: 0 auto;
+    margin: 0 auto;
 background-color: white;
 margin-bottom: 50px;
 border-bottom: 2px solid #ccc;}
